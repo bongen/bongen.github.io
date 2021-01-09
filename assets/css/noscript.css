@@ -1,0 +1,65 @@
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	*/
+
+	/* BG */
+
+	body.is-preload #bg:before {
+		background-color: transparent;
+	}
+
+	/* Header */
+
+	body.is-preload #header {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+	body.is-preload #header > * {
+		opacity: 1;
+	}
+
+	body.is-preload #header .content .inner {
+		max-height: none;
+		padding: 3rem 2rem;
+		opacity: 1;
+	}
+
+	#header{
+		height: 100vh;
+	}
+
+	/* Main */
+
+	#main article {
+		opacity: 1;
+		margin: 0 0 0 0;
+	}
+
+	#js-note {
+		display: block;
+		margin-bottom: 2rem;
+		background: rgba(240, 239, 209, .75);
+		color: #000;
+		border-radius: 4px;
+		padding: 0.25rem 0.65rem;
+	}
+
+	#js-note code {
+		background: none;
+		margin: 0;
+		padding: 0;
+		font-size: 1rem;
+	}
+
+	#music .vimeo-player {
+		background-image: url(../../images/VimeoThumb1.png);
+	}
+
+	#music .youtube-player {
+		background-image: url(../../images/YoutubeThumb.png);
+	}
